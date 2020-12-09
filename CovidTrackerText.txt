@@ -1,0 +1,26 @@
+We had scraped data from worldometers live covid analysis website.
+We have neglected use of API and used scraping, and tried to use python in good way by using well known libraries like bs4, openpyxl, and more.
+
+
+We have used 'BeautifulSoup', to scrap the webpage of worldometer, and fetched numeric values and total counts regarding cases by iterating a loops over the html tags and classes.
+
+
+And we have used openpyxl to save the scrapped details to the .csv file at the same moment in sorted and well defined manner.
+
+
+We have used django framework for the implementation of the project, as in comparison to flask and pyramid, django is priorized for its few advantages like faster, expandable, secure and other advantages over rest frameworks.
+
+And in that we had used html, bootstrap and css for designing the view of the analysis.
+
+
+We are fetching the most recent updated values from the worldometer by scraping it at runtime rather than saving it to the database and which outputs in less consumption of time.
+
+
+
+We have used "requests" to push the request for the scrapping.
+
+
+We have used "datetime" to get the latest date.
+
+
+
